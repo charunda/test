@@ -1,0 +1,50 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.pie {
+  stroke: lightgray;
+  stroke-width: 0.8rem;
+}
+.progress {
+  stroke: blue;
+  stroke-width: 1.5rem;
+  stroke-linecap: round;
+}
+.button-round {
+  cursor: pointer;
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  background-color: navy;
+  border: unset;
+  color: white;
+  font-size: 60px;
+}
+button:disabled,
+button[disabled] {
+  cursor: not-allowed;
+  background-color: grey;
+}
+.row {
+  display: flex;
+}
+.col {
+  width: 50%;
+}
+.divider-page {
+  margin: 3rem;
+}
+.p-x {
+  font-size: 1rem;
+  font-weight: 500;
+  color: navy;
+  letter-spacing: 0.45rem;
+}
+.flex-empty {
+  display: inline-flex;
+  width: 1rem;
+}
+.div-x {
+  margin-top: 0.5rem;
+}
